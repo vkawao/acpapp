@@ -1,5 +1,5 @@
-import React from "react";
-import { TextField, Button, Grid, Typography, Paper } from '@mui/material';
+import React, { useState } from "react";
+import { TextField, Button, Grid, Typography, Paper, Snackbar, Alert } from '@mui/material';
 
 
 export default function AuthPage() {
@@ -190,5 +190,3 @@ export default function AuthPage() {
    </Grid>
  );
 }
-
-
